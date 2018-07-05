@@ -1,6 +1,6 @@
-var api = "http://poolhost:8117";
+var api = "http://18.218.183.55:8117";
 
-var email = "support@poolhost.com";
+var email = "coin@coinguy.xyz";
 var telegram = "https://t.me/YourPool";
 var discord = "https://discordapp.com/invite/YourPool";
 
