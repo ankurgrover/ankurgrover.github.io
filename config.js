@@ -1,6 +1,6 @@
 var api = "http://18.218.183.55:8117";
 
-var email = "coin@coinguy.xyz";
+var email = "haven@coinguy.xyz";
 var telegram = "https://t.me/havenpool";
 var discord = "https://discordapp.com/invite/havenpool";
 
