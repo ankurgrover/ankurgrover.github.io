@@ -1,8 +1,8 @@
 var api = "http://18.218.183.55:8117";
 
 var email = "coin@coinguy.xyz";
-var telegram = "https://t.me/YourPool";
-var discord = "https://discordapp.com/invite/YourPool";
+var telegram = "https://t.me/havenpool";
+var discord = "https://discordapp.com/invite/havenpool";
 
 var marketCurrencies = ["{symbol}-BTC", "{symbol}-USD", "{symbol}-EUR", "{symbol}-CAD"];
 
