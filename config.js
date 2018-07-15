@@ -6,8 +6,8 @@ var discord = "https://discordapp.com/invite/havenpool";
 
 var marketCurrencies = ["{symbol}-BTC", "{symbol}-USD", "{symbol}-EUR", "{symbol}-CAD"];
 
-var blockchainExplorer = "http://chainradar.com/{symbol}/block/{id}";
-var transactionExplorer = "http://chainradar.com/{symbol}/transaction/{id}";
+var blockchainExplorer = "http://explorer.havenprotocol.com/block/{id}";
+var transactionExplorer = "http://explorer.havenprotocol.com/tx/{id}";
 
 var themeCss = "themes/default.css";
 var defaultLang = 'en';
