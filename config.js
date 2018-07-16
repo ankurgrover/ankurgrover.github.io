@@ -1,4 +1,4 @@
-var api = "http://haven.server.coinguy.xyz:8117";
+var api = "https://haven.server.coinguy.xyz:8117";
 
 var email = "haven@coinguy.xyz";
 var telegram = "https://t.me/havenpool";
