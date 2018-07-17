@@ -2,7 +2,7 @@ var api = "https://haven.server.coinguy.xyz:8119";
 
 var email = "haven@coinguy.xyz";
 var telegram = "https://t.me/havenpool";
-var discord = "https://discordapp.com/invite/havenpool";
+var discord = "https://discord.gg/9hyeGW";
 
 var marketCurrencies = ["{symbol}-BTC", "{symbol}-USD", "{symbol}-EUR", "{symbol}-CAD"];
 
