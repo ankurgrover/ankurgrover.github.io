@@ -110,7 +110,7 @@
             </tr>
             </thead>
             <tbody id="miningApps_rows">
-	    
+
 	    <!-- XMR Stak -->
             <tr class="appInfo">
                 <td class="miningAppTitle">XMR Stak</td>
@@ -139,8 +139,51 @@
 
                     </div>
                 </td>
+            </tr>		    
+
+
+		    
+		    
+		    
+		    
+
+	    <!-- XMR Stak -->
+	    <!--
+            <tr class="appInfo">
+                <td class="miningAppTitle">XMR-Stak 2.4.5+</td>
+                <td>CPU & GPU (AMD/NVIDIA)</td>
+                <td>(Windows, Linux, CPU, GPU) supports autoswitch from V2 to V3</td>
+                <td><a class="btn btn-success" target="_blank" href="https://github.com/fireice-uk/xmr-stak/releases"><span tkey="download">Download</span></a></td>
+                <td><a class="btn btn-default" role="button" data-toggle="collapse" href="#xmrstak" aria-expanded="true" aria-controls="collapseExample"><span tkey="showConfig">See more</span></a></td>
             </tr>
-	    
+            <tr class="appConfig">
+                <td colspan="5">
+                    <div class="collapse" id="xmrstak">
+		
+<pre><code>"pool_list": [
+    {
+        "pool_address": "<span class="exampleHost">POOL_HOST</span>:<span class="examplePort">PORT</span>",
+        "wallet_address": "<span class="exampleLogin">YOUR_WALLET_ADDRESS</span>",
+        "rig_id": "<span class="examplePassword">YOUR_WORKER_NAME</span>",
+        "pool_password": "x",
+        "use_nicehash": false,
+        "use_tls": false, /* Set to true if you are using an SSL port */
+        "tls_fingerprint": "",
+        "pool_weight": 1
+    },
+],
+"currency": "<span id="xmrstakAlgo"></span>",</code></pre>
+
+                    </div>
+                </td>
+            </tr>
+	    -->
+		    
+		    
+		    
+		    
+		    
+		    
 	    <!-- XMRig -->
             <tr class="appInfo">
                 <td class="miningAppTitle">XMRig</td>
@@ -333,7 +376,7 @@ currentPage = {
             }
         }
 
-        /*
+        
         if (coin == 'aeon') xmrstakAlgo = 'aeon7';
         if (coin == 'bbscoin') xmrstakAlgo = 'bbscoin';
         if (coin == 'croat') xmrstakAlgo = 'croat';
@@ -349,7 +392,7 @@ currentPage = {
         if (coin == 'stellite') xmrstakAlgo = 'stellite';
         if (coin == 'sumokoin') xmrstakAlgo = 'sumokoin';
         if (coin == 'turtlecoin') xmrstakAlgo = 'turtlecoin';
-        */
+        
 
         updateText('cnAlgorithm', algorithm);
         updateText('xmrstakAlgo', xmrstakAlgo);
